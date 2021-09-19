@@ -59,6 +59,7 @@ class AutoCompleteInput extends HTMLElement {
                 }
                 .autocomplete-input {
                     padding: .375rem .75rem;
+                    width: 30%;
                     outline: none;
                     font-size: 1rem;
                     line-height: 1.5;
