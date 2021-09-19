@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autocomplete widget demo</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+    <script src="./widgets/autocomplete-input/autocomplete-input.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Autocomplete widget demo</h1>
+        <form id="demoForm">
+            <autocomplete-input 
+                id="monthPicker"    
+                inputId="monthInput"    
+                label="Select Month"
+                suggestionList='["Jan", "Feb", "Mar", "Apr", "Jun", "July", "August", "Sep", "Nov", "Dec"]'
+            ></autocomplete-input>
+
+            <autocomplete-input 
+                id="dayPicker"    
+                inputId="dayInput"    
+                label="Select Day"
+                suggestionList='["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]'
+            ></autocomplete-input>
+
+            <input type="submit" id="submit-btn">
+        </form>
+        <p id="selectedData"></p>
+    </div>
+</body>
+</html>
