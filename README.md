@@ -1,6 +1,6 @@
 # Autocomplete input widget
 
-By [K Sivaram](mailto:ksivaram.nalanda@gmail.com)
+By [K Sivaram](mailto:kysivaram@gmail.com)
 
 [kysivaram](https://github.com/kysivaram)
 
@@ -15,6 +15,6 @@ By [K Sivaram](mailto:ksivaram.nalanda@gmail.com)
 
 ## Discussion
 
-I used the following technologies: HTML, CSS, JS.
-I used the concept of shadow dom to create this widget.
-I created a web component called autocomplete-input which is compatible with any js library(React, Angular, Vue etc.).
+Languages used: **HTML, CSS, VanillaJS**.  
+This project was created to explore the concept of shadow dom and showcase a web component as a widget.  
+autocomplete-input is a web component which is compatible with any js library(React, Angular, Vue etc.).  
